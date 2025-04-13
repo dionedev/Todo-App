@@ -1,0 +1,2 @@
+/Users/dionesantos/Workspace/myApps/mobile/todoapp/android/app/.cxx/Debug/g3w6d65p/x86/CMakeFiles/edit_cache.dir
+/Users/dionesantos/Workspace/myApps/mobile/todoapp/android/app/.cxx/Debug/g3w6d65p/x86/CMakeFiles/rebuild_cache.dir
