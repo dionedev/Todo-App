@@ -1,23 +1,18 @@
-import 'package:flutter/widgets.dart';
-
 class TaskModel {
-  final int id;
-  final String title;
-  final String? description;
+  final String id;
+  final String? task;
   final bool isDone;
 
   TaskModel({
     required this.id,
-    required this.title,
-    required this.description,
+    required this.task,
     required this.isDone,
   });
 
   Map<String, dynamic> toJson() {
     return {
       'id': id,
-      'title': title,
-      'description': description,
+      'description': task,
       'isDone': isDone,
     };
   }
@@ -25,28 +20,23 @@ class TaskModel {
   factory TaskModel.fromMap(Map<String, dynamic> json) {
     return TaskModel(
       id: json['id'],
-      title: json['title'] ?? '',
-      description: json['description'] ?? '',
+      task: json['description'] ?? '',
       isDone: json['isDone'] ?? false,
     );
   }
 
   TaskModel copyWith({
-    int? id,
-    String? title,
-    String? description,
+    String? id,
+    String? task,
     bool? isDone,
   }) {
     return TaskModel(
       id: id ?? this.id,
-      title: title ?? this.title,
-      description: description ?? this.description,
+      task: task ?? this.task,
       isDone: isDone ?? this.isDone,
     );
   }
 
   @override
-  String toString() {
-    return 'TaskModel(id: $id, title: $title, description: $description, isDone: $isDone)';
-  }
+  String toString() => 'TaskModel(id: $id, task: $task, isDone: $isDone)';
 }
