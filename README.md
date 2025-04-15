@@ -46,6 +46,9 @@ flutter pub get
 
 #### Telas
 
-<img src="" width=250 />
-<img src="" width=250 />
-<img src="" width=250 />
+<img src="https://github.com/user-attachments/assets/29990d14-0dd3-4581-8aa0-6db557e001b1" width=230 />
+<img src="https://github.com/user-attachments/assets/3bc4c18d-17ff-4c77-8b46-60084535ce05" width=230 />
+<img src="https://github.com/user-attachments/assets/73295293-4ac4-4cea-b538-037f263f0787" width=230 />
+<img src="https://github.com/user-attachments/assets/8a105966-7464-4649-b9ff-ed3ad1faa8a2" width=230 />
+
+
